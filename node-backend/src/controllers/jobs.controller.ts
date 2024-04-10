@@ -1,6 +1,6 @@
 import { plainToClass } from 'class-transformer';
 import { NextFunction, Request, Response } from 'express';
-import { CreateJobDto } from '../common/dtos/createJob.dto';
+import { CreateJobDto } from '../common/dto/createJob.dto';
 import { Job } from '../entities/jobs.entity';
 import JobsService from '../services/jobs.service';
 

@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { CreateJobDto } from '../../common/dtos/createJob.dto';
+import { CreateJobDto } from '../../common/dto/createJob.dto';
 import Route from '../../common/interfaces/routes.interface';
 import JobsController from '../../controllers/jobs.controller';
 import validationMiddleware from '../middlewares/validation.middleware';
